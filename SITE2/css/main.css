@@ -1,0 +1,457 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none; 
+  color: inherit; 
+}
+.container {
+  font-size: 14px;
+  width: 100%;
+  height: 1979px;
+  background: rgba(206,190,190,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.banner {
+  width: 100%;
+  height: 665px;
+  background: url("../images/banner.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px; 
+  left: 0px;
+  overflow: hidden;
+}
+.header {
+  width: 100%;
+  height: 113px;
+  background: rgba(0,0,0,0.15000000596046448);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  border: none; 
+  overflow: hidden;
+}
+.logo {
+  width: 100%;
+  height: 299px;
+  background: rgba(0,0,0,0.15000000596046448);
+  opacity: 1;
+  position: absolute;
+  top: 1680px;
+  left: 0px;
+  border: none; 
+  overflow: hidden;
+}
+.imagem {
+  width: 146px;
+  height: 112px;
+  background: url("../images/logo.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 152px;
+  overflow: hidden;
+}
+.inicio {
+  width: 96px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 40px;
+  left: 701px;
+  font-family: Poppins;
+  font-weight: Regular;
+  font-size: 25px;
+  opacity: 1;
+  text-align: center;
+}
+.somos {
+  width: 186px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 40px;
+  left: 812px;
+  font-family: Poppins;
+  font-weight: Regular;
+  font-size: 25px;
+  opacity: 1;
+  text-align: center;
+}
+.servicos {
+  width: 130px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 40px;
+  left: 1010px;
+  font-family: Poppins;
+  font-weight: Regular;
+  font-size: 25px;
+  opacity: 1;
+  text-align: center;
+}
+.contato {
+  width: 129px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 40px;
+  left: 1145px;
+  font-family: Poppins;
+  font-weight: Regular;
+  font-size: 25px;
+  opacity: 1;
+  text-align: center;
+}
+.dedetizacao {
+  width: 546px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 220px;
+  left: 49px;
+  font-family: Ubuntu;
+  font-weight: Regular;
+  font-size: 50px;
+  opacity: 1;
+  text-align: center;
+}
+.subtitulo {
+  width: 485px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 333px;
+  left: 79px;
+  font-family: Ubuntu;
+  font-weight: Regular;
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
+}
+.caixa1 {
+  width: 252px;
+  height: 252px;
+  background: rgba(184,157,146,1);
+  opacity: 1;
+  position: absolute;
+  top: 601px;
+  left: 342px;
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+.caixa2 {
+  width: 252px;
+  height: 252px;
+  background: rgba(184,157,146,1);
+  opacity: 1;
+  position: absolute;
+  top: 601px;
+  left: 846px;
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+.caixa3 {
+  width: 252px;
+  height: 252px;
+  background: rgba(213,185,178,1);
+  opacity: 1;
+  position: absolute;
+  top: 601px;
+  left: 594px;
+  box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+.pulgas {
+  width: 122px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 672px;
+  left: 407px;
+  font-family: Ubuntu;
+  font-weight: Regular;
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
+}
+.desratizacao {
+  width: 157px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 672px;
+  left: 642px;
+  font-family: Ubuntu;
+  font-weight: Regular;
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
+}
+.carrapato {
+  width: 158px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 672px;
+  left: 893px;
+  font-family: Ubuntu;
+  font-weight: Regular;
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
+}
+.imagem1 {
+  width: 59px;
+  height: 59px;
+  background: url("../images/pulga.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 611px;
+  left: 439px;
+  overflow: hidden;
+}
+.imagem2 {
+  width: 65px;
+  height: 65px;
+  background: url("../images/barata.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 601px;
+  left: 687px;
+  overflow: hidden;
+}
+.imagem3 {
+  width: 78px;
+  height: 78px;
+  background: url("../images/carrapato.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 594px;
+  left: 933px;
+  overflow: hidden;
+}
+
+.texto1 {
+  width: 209px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 708px;
+  left: 364px;
+  font-family: Ubuntu;
+  font-weight: Regular;
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
+}
+.texto2 {
+  width: 209px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 708px;
+  left: 617px;
+  font-family: Ubuntu;
+  font-weight: Regular;
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
+}
+.texto3 {
+  width: 209px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 708px;
+  left: 875px;
+  font-family: Ubuntu;
+  font-weight: Regular;
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
+}
+
+.fundo {
+  width: 220px;
+  height: 56px;
+  background: rgba(162,103,105,1);
+  opacity: 1;
+  position: absolute;
+  top: 924px;
+  left: 610px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  overflow: hidden;
+}
+.saiba-mais {
+  width: 164px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 941px;
+  left: 640px;
+  font-family: Ubuntu;
+  font-weight: Regular;
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
+}
+.banner2 {
+  width: 100%;
+  height: 665px;
+  background: url("../images/banner2.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.9;
+  position: absolute;
+  top: 1015px;
+  left: 0;
+  overflow: hidden;
+  
+}
+.contrate-nosso-servico {
+  width: 550px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 1227px;
+  left: 85px;
+  font-family: Ubuntu;
+  font-weight: Regular;
+  font-size: 50px;
+  opacity: 1;
+  text-align: center;
+}
+.botao-contrate {
+  width: 464px;
+  height: 61px;
+  background: rgba(236, 226, 208, 0.45);
+  border-radius: 30px;
+  position: absolute;
+  top: 1320px;
+  left: 117px;
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+}
+
+.contrate {
+  color: rgba(255, 255, 255, 1);
+  font-family: Ubuntu, sans-serif;
+  font-weight: regular;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none; 
+  opacity: 1;
+}
+.footer {
+  width: 100%;
+  height: 163px;
+  background: url("../images/v21_765.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 1748px;
+  left: 71px;
+  overflow: hidden;
+}
+.rua {
+  width: 352px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 5px;
+  left: 900px;
+  font-family: Yantramanav;
+  font-weight: Regular;
+  font-size: 25px;
+  opacity: 1;
+  text-align: left;
+}
+.servicos2{
+  width: 90px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 96px;
+  left: 137px;
+  font-family: Yantramanav;
+  font-weight: Regular;
+  font-size: 25px;
+  opacity: 1;
+  text-align: left;
+}
+.sobre {
+  width: 61px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 40px;
+  left: 153px;
+  font-family: Yantramanav;
+  font-weight: Regular;
+  font-size: 25px;
+  opacity: 1;
+  text-align: left;
+}
+.email {
+  width: 427px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 75px;
+  left: 900px;
+  font-family: Yantramanav;
+  font-weight: Regular;
+  font-size: 25px;
+  opacity: 1;
+  text-align: left;
+}
+.contato2 {
+  width: 99px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 40px;
+  left: 432px;
+  font-family: Yantramanav;
+  font-weight: Regular;
+  font-size: 25px;
+  opacity: 1;
+  text-align: left;
+}
+.quem-somos {
+  width: 137px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 96px;
+  left: 411px;
+  font-family: Yantramanav;
+  font-weight: Regular;
+  font-size: 25px;
+  opacity: 1;
+  text-align: left;
+}
+.numero {
+  width: 200px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 123px;
+  left: 900px;
+  font-family: PT Serif;
+  font-weight: Regular;
+  font-size: 25px;
+  opacity: 1;
+  text-align: left;
+}
